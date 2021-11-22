@@ -1,0 +1,15 @@
+/* CSS Document */
+.datagridheader, .datagridheader a, .datagridheader a:link, .datagridheader a:visited, 
+.datagridheader a:hover, .datagridheader a:active
+{
+	color:white;
+    font-weight:bold;
+	background-color:#003366;
+	text-align:center;
+	 
+}
+.datagridalt
+{
+	background-color: #f7f7f7;
+}
+

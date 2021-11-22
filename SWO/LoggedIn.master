@@ -1,0 +1,379 @@
+﻿<%@ Master Language="VB" CodeFile="LoggedIn.master.vb" Inherits="Master_LoggedIn" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<%@ Register TagPrefix="NavMenu" TagName="Nav" Src="Menus/Nav.ascx" %>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head id="Head1" runat="server">
+
+    <meta name="keywords" content="Privacy, "/>
+    
+    <title>
+        SWO Incident Tracker
+    </title>
+    
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    
+    <link href="Includes/CSS/3col_rightNav_secondlevel.css" type="text/css" rel="stylesheet" />
+    
+    <!-- Netscape fix-->
+    <script language="javascript" type="text/javascript">
+
+        function MM_reloadPage(init) 
+        {  //reloads the window if Nav4 resized
+            if (init == true) with (navigator) 
+            {
+                if ((appName == "Netscape") && (parseInt(appVersion) == 4)) 
+                {
+                    document.MM_pgW = innerWidth; document.MM_pgH = innerHeight; onresize = MM_reloadPage;
+                } 
+            }
+            else if (innerWidth != document.MM_pgW || innerHeight != document.MM_pgH) location.reload();
+        }
+        MM_reloadPage(true);
+    
+    </script>
+    <!-- Netscape fix end-->
+
+    <style type="text/css">
+        .style2 {color: #999999}
+        .style5 {color: #FF0000}
+    </style>
+    
+    <link type="text/css" rel="Stylesheet"/>
+    <script type="text/javascript"  language='javascript' src='Includes/JavaScript/DateHelp.js'></script>
+    <script type="text/javascript" language='javascript' src='Includes/JavaScript/incPureUpload.js'></script>
+    <script type="text/javascript" src="Includes/JavaScript/prototype.js"></script>
+    
+    <link type="text/css" href="Includes/JQUERY/css/ui-lightness/jquery-ui-1.8.2.custom.css" rel="stylesheet" />	
+	<script type="text/javascript" src="Includes/JQUERY/js/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="Includes/JQUERY/js/jquery-ui-1.8.2.custom.min.js"></script>
+	<script type="text/javascript">
+	    $(function() {
+
+	        // Accordion
+	        $("#accordion").accordion({ header: "h3" });
+
+	        // Tabs
+	        $('#tabs').tabs();
+
+
+	        // Dialog			
+	        $('#dialog').dialog({
+	            autoOpen: false,
+	            width: 600,
+	            buttons: {
+	                "Ok": function() {
+	                    $(this).dialog("close");
+	                },
+	                "Cancel": function() {
+	                    $(this).dialog("close");
+	                }
+	            }
+	        });
+
+	        // Dialog Link
+	        $('#dialog_link').click(function() {
+	            $('#dialog').dialog('open');
+	            return false;
+	        });
+
+	        // Datepicker
+	        $('#datepicker').datepicker({
+	            inline: true
+	        });
+
+	        // Slider
+	        $('#slider').slider({
+	            range: true,
+	            values: [17, 67]
+	        });
+
+	        // Progressbar
+	        $("#progressbar").progressbar({
+	            value: 20
+	        });
+
+	        //hover states on the static widgets
+	        $('#dialog_link, ul#icons li').hover(
+					function() { $(this).addClass('ui-state-hover'); },
+					function() { $(this).removeClass('ui-state-hover'); }
+				);
+
+	    });
+		</script>
+			
+    <!-- Netscape fix-->
+    <script language="javascript" type="text/javascript">
+
+
+    function MM_reloadPage(init) 
+    {  //reloads the window if Nav4 resized
+        if (init == true) with (navigator) 
+        {
+            if ((appName == "Netscape") && (parseInt(appVersion) == 4)) 
+            {
+                document.MM_pgW = innerWidth; document.MM_pgH = innerHeight; onresize = MM_reloadPage;
+            } 
+        }
+        else if (innerWidth != document.MM_pgW || innerHeight != document.MM_pgH) location.reload();
+    }
+    MM_reloadPage(true);
+
+    </script>
+    <!-- Netscape fix end-->
+
+    <style type="text/css">
+        .style2 {color: #999999}
+        .style5 {color: #FF0000}
+    </style>
+    
+    <style type="text/css">
+        A.menu 
+        {
+        	color: #FFFFFF; text-decoration: none ; font-weight: bold; 
+        }
+        
+        A.menu:visited
+        {
+        	color:#FFFFFF; font-weight: bold;
+        }
+        
+        A.menu:hover 
+        {
+        	color: #FFFFFF ;text-decoration: underline; font-weight: bold; 
+        }
+        
+        body 
+        {
+            margin-left: 0px;
+            margin-top: 0px;
+        }
+        
+        a img 
+        {
+            border: none;
+        }
+        
+        .style17 
+        {	
+        	color: #FFFFFF;
+            font-weight: bold;
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+            font-size: 12px;
+        }
+        
+        .style16 
+        {
+        	font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: #FFFFFF;
+        }
+        
+        .style17 
+        {
+        	color: #CCCCCC
+        }
+        
+        .style79 {
+            color: #003399;
+            font-weight: bold;
+            font-size: 18px;
+            font-style: italic;
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+        }
+        
+        .style69 {
+            color: #003399;
+            font-size: 18px;
+            font-style: italic;
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+        }
+        
+        .style18 
+        {
+        	color: #999999
+        }
+        
+        .style19 
+        {
+        	font-size: small
+        }
+        
+        .style20 
+        {
+        	font-size: x-small
+        }
+        
+        .style80 
+        {
+            color: #FFFFFF;
+            font-weight: bold;
+        }
+    </style>
+
+</head>
+    
+<body>
+    <script type="text/javascript" src="Includes/JavaScript/wz_tooltip.js"></script>
+    
+    
+    <script type="text/javascript" src="Includes/JavaScript/ticky-ticky.js" language="JavaScript"></script>
+    
+    <div id= "CenterBox">
+        <table summary="This table holds the header for floridadisaster.org" width="100%"  border="0" cellspacing="0" cellpadding="0">
+            <tr>
+                <td width="39%">
+                    &nbsp;
+                </td>
+                <td width="61%" rowspan="2" valign="bottom" style="background: #fff url(Images/Hurricane_BG_BW.jpg) repeat;">
+                    <div align="right">
+                        <br />
+                        <br />
+                    </div>
+                    <div align="right">
+                        <table width="100%"  border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td>
+                                    <span class="style79" >
+                                        User:
+                                    </span>
+                                    <span class="style69" >
+                                            <a href="MyProfile.aspx">
+                                            <asp:Label ID="lblFullName" runat="server"></asp:Label>
+                                            </a>
+                                            &nbsp;
+                                    </span>
+                                    <span class="style79" >
+                                        User Level:
+                                    </span>
+                                    <span class="style69" >
+                                            <asp:Label ID="lblUserLevel" runat="server"></asp:Label>
+                                            &nbsp;
+                                    </span>
+                                </td>
+                            </tr>
+                        </table>
+                    <span class="style2">
+                    </span> 
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td><a href="http://www.floridadisaster.org/index.asp" target="_blank"><img height="56" alt="Florida Disaster.org Florida Division of Emergency Management" src="Images/top_left_logo.png" width="397" border="0"/></a></td>
+            </tr>
+        </table>
+        <table width="100%"  border="0" cellspacing="0" cellpadding="0">
+            <tr><!-- Top Navigational Menu-->
+                <td width="23%" style="background: #fff url(Images/H3gradient_blue.jpg) repeat;" bgcolor="#014093"><a href="http://www.floridadisaster.org/" target="_blank"><img src="Images/mdllogo.png" alt="State Emergency Response Team" width="148" height="21" border="0"/></a></td>
+                <td width="77%" style="background: #fff url(Images/H3gradient_blue.jpg) repeat;" bgcolor="#014093" class="menu style2"></td>
+            </tr>
+        </table>
+        <table width="100%"  border="0" cellspacing="0" cellpadding="0">
+            <tr>
+                <td width="19%"><img src="Images/btm_secondlevel.png" alt="State Emergency ResponseTeam" width="160" height="46" /></td>
+                <td width="55%"><div align="center"><span class="style79">Incident Tracker</span></div><div align="right"><br /></div></td>
+                <td width="6%" bgcolor="#FFFFFF"><div align="right"><img alt="corner_triangle.gif" src="Images/corner_triangle.gif" width="56" height="45" /></div></td>
+                <td width="20%" bgcolor="#014093">
+                    <div align="center">
+		                <div id="WLSearchBoxDiv">
+                            <table cellpadding="0" cellspacing="0" style="width: 182px">
+                                <tr id="WLSearchBoxPlaceholder">
+                                    <td style="width: 100%; border:solid 2px #024095;border-right-style: none;"><span class="style80"><a  href="Logout.aspx"><img alt="Logout" src="Images/logout_icon_small.png" align="middle" /></a></span><br /></td>
+                                    <td style="border:solid 2px #024095;"><br /></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td align="center" colspan="4" style="background: #fff url(Images/H3gradient_blue.jpg) repeat;" bgcolor="#014093" class="menu style2">
+                    <NavMenu:Nav id="ctrlNavigation" runat="server" /> 
+                </td>
+            </tr>
+        </table>
+            <!-- Content Starts Here When Master Pages Is Added to .aspx Files-->
+        <form id="form1" runat="server">
+            <div>
+            <!--Script manager for AJAX-->
+            <AJAX:ScriptManager ID="AJAXScriptManager" runat="server">
+            </AJAX:ScriptManager>
+
+            <script language="JavaScript" type="text/javascript">
+
+                var prm = Sys.WebForms.PageRequestManager.getInstance();
+                prm.add_initializeRequest(InitializeRequest);
+                prm.add_endRequest(EndRequest);
+                function InitializeRequest(sender, args) {
+                    document.body.style.cursor = "wait";
+                }
+                function EndRequest(sender, args) {
+                    document.body.style.cursor = "default";
+                }
+            </script>
+
+            <!--End Script manager for AJAX-->
+            <!--AJAX update progress -->
+            <AJAX:UpdateProgress ID="AJAXUpdateProgress" runat="server">
+                <ProgressTemplate>
+                    <div class="ajaxdivupdate">
+                        Loading...<img src="images/loading.gif" alt="Loading" align="absmiddle" />
+                    </div>
+                </ProgressTemplate>
+            </AJAX:UpdateProgress>
+            <!--End AJAX update progress-->
+                <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+                
+                </asp:ContentPlaceHolder>
+            </div>
+        </form>
+            <!-- Content Ends Here When Master Pages Is Added to .aspx Files-->                        
+                            
+    <div id="siteInfo">
+
+              <!-- Footer Starts Here--> 
+        <table summary="This table holds the footer for FloridaDisaster.org" width="100%"  border="0" cellspacing="0" cellpadding="0">
+            <tr bgcolor="#CCCCCC">
+                <td height="25" style="background: #fff url(Images/H3gradient_blue.jpg) repeat;" bgcolor="#014093"></td>
+            </tr>
+        </table>
+
+        <table summary="This table holds the footer for floridadisaster.org" width="100%"  border="0" cellspacing="2" cellpadding="2">
+            <tr>
+                <td width="30%" height="105" valign="top"><a href="http://www.myflorida.com" target="_blank"><img src="Images/myflorida_btm.gif" alt="MyFlorida.com" width="101" height="79" border="0"/></a><img src="Images/emap_btm.gif" alt="EMAP Accredited" width="147" height="79"/><br /><br /></td>
+                <td width="70%" valign="top">
+                    <div align="right">
+                        <span class="menu style2">
+                            <span class="menu style2">
+                               &nbsp;
+                            </span>
+                        </span>
+                        <br /><br />
+                        <table border="0" cellpadding="0" cellspacing="0">
+                            <tr>
+                                <td>
+                                    &nbsp;
+                                </td>
+                            </tr>
+                        </table>
+                    </div>    
+                </td>
+            </tr>
+        </table>
+    </div>
+    </div>
+</body>
+
+</html>
+  <script type="text/javascript">
+        function Gator(url,pass,usr) {
+            var txt;
+            var r = confirm("You will be re-directed to SWO GATOR.\n\nIn the new window that opens, please enter these additional credentials to access this mapping application.\n\nPlease enter – " + usr + "/" + pass);
+            if (r == true) {
+              window.open(url,'Gator','height=800,width=800');
+            } else {
+                txt = "You pressed Cancel!";
+            }
+          
+        }
+    </script>

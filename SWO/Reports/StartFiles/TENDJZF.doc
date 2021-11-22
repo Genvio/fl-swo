@@ -1,0 +1,121 @@
+﻿<html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word'xmlns='http://www.w3.org/TR/REC-html40'><head><title>Total Reports</title><!--[if gte mso 9]><xml><w:WordDocument><w:View>Print</w:View><w:Zoom>90</w:Zoom>  </w:WordDocument></xml><![endif]--><style><!-- /* Style Definitions               */@page Section1{size:8.5in 11.0in;margin:1.0in 1.25in 1.0in 1.25in;mso-header-margin:.5in; mso-footer-margin:.5in;    mso-paper-source:0;}div.Section1{page:Section1;}--></style></head><body lang=EN-US style='tab-interval:.5in'><div class=Section1><!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'><html xmlns='http://www.w3.org/1999/xhtml'><head><title>SWODEV Incident Tracker</title><style>body{font-family: Times;} pre{font-family: Times; white-space:pre-wrap;}</style></head><body><table width='100%'cellspacing='0' border='0'>    <tr>        <td  width='650px' align='left' style='background-color:#d4d4d4; color:#000000;' >            &nbsp;        </td>    </tr></table><table width='100%'cellspacing='0' border='0'>    <tr>        <td align='left'width='80px'>            <img id='imgSertLogo' alt='SertLogo' src='http://localhost:60517/SWO/Images/SertLogoGoodReport.jpg' />        </td>        <td valign='middle' align='center' width='490px'>            <table>                <tr>                    <td align='center'>                        <font size='5.5'>Florida Division of Emergency Management</font>                    </td>                </tr>                <tr>                    <td align='center'>                        <font size='5.5'>State Watch Office</font>                    </td>                </tr>                <tr>                    <td align='center'>                        <font size='5.5'>Incident Report</font>                    </td>                </tr>            </table>        </td>        <td align='left'width='80px'>            <img id='imgSealLogo' alt='SertLogo' src='http://localhost:60517/SWO/Images/FloridaSealReport.jpg' />        </td>    </tr></table><table width='100%'cellspacing='0' border='0'>    <tr>        <td  width='650px' align='left' style='background-color:#c2ecde; color:#000000;' >            CONFIDENTIAL - FOUO        </td>    </tr></table><table width='100%'cellspacing='0' border='0'>    <tr>        <td align='left' width='650px' style='background-color:White; height:25px; color:#ff0000; font:Arial; font-size:1.1em;'>             <b>This report is exempt from public records disclosure pursuant to § 119.07 F.S.</b>         </td>    </tr></table><table width='100%'cellspacing='0' border='0'>    <tr>        <td  width='650px' align='left' style='background-color:#d4d4d4; color:#000000;' >            <b>Maps</b>        </td>    </tr></table><table width='100%'cellspacing='0' border='0'>    <tr>        <td align='left'width='325px'>            <img id='imgMap1' alt='Map1' src='http://maps.google.com/staticmap?center=27.000613,-82.182649&markers=27.000613,-82.182649,red&zoom=7&size=321x250&maptype=street&format=jpg&key=ABQIAAAAaa6B5ZMUVanPrZJU5dhtshRzymbT3klSnJpNv7EI1uNYq_UBqhTmwXd4YDorUwqRsabizyja-ZgPoQ' />         </td>        <td align='left'width='325px'>            <img id='imgMap2' alt='Map2' src='http://maps.google.com/staticmap?center=27.000613,-82.182649&markers=27.000613,-82.182649,red&zoom=14&size=321x250&maptype=street&format=jpg&key=ABQIAAAAaa6B5ZMUVanPrZJU5dhtshRzymbT3klSnJpNv7EI1uNYq_UBqhTmwXd4YDorUwqRsabizyja-ZgPoQ' />         </td>    </tr></table><table width='100%'cellspacing='0' border='0'>    <tr>        <td  width='650px' align='left' style='background-color:#d4d4d4; color:#000000;' >            <b>Update 3 - 07/30/2015-17:05 / DEM-Porter</b>        </td>    </tr></table><table>    <tr>        <td align='left'width='650px'>        <pre>This is another update. It's just one long line of text, used here to demonstrate how not using the HTML preserve tag affects the display of text. After the long line of text, we can also demonstrate how white space is not preserved. However, not all browsers email clients render preserved text the same way.
+
+                    We
+					     can
+						      use
+							       spaces
+								        to
+										     put
+											      text
+												       out
+													        here.
+
+Or
+	we
+		can
+			use
+				tabs
+					to
+						accomplish
+							the
+								same
+									type
+										of
+											thing.
+											  </pre>        </td>    </tr></table><table width='100%'cellspacing='0' border='0'>    <tr>        <td  width='650px' align='left' style='background-color:#d4d4d4; color:#000000;' >            <b>Update 2 - 07/30/2015-16:33 / DEM-Porter</b>        </td>    </tr></table><table>    <tr>        <td align='left'width='650px'>        <pre>This is an update. It's the first of a number of updates created to test the display of updates on the reports and notifications. We think that when there are multiple updates they are tacked on to one another without line breaks, leading to  long and difficult-to-read blocks of text. This is especially true when viewing the text on a small screen....  </pre>        </td>    </tr></table><table width='100%'cellspacing='0' border='0'>    <tr>        <td  width='650px' align='left' style='background-color:#d4d4d4; color:#000000;' >            <b>Update 1 - 07/30/2015-16:32 / DEM-Porter</b>        </td>    </tr></table><table>    <tr>        <td align='left'width='650px'>        <pre>This is an update. It's the first of a number of updates created to test the display of updates on the reports and notifications. We think that when there are multiple updates they are tacked on to one another without line breaks, leading to  long and difficult-to-read blocks of text. This is especially true when viewing the text on a small screen....  </pre>        </td>    </tr></table><table width='100%'cellspacing='0' border='0'>    <tr>        <td  width='650px' align='left' style='background-color:#d4d4d4; color:#000000;' >            <b>Main Information</b>        </td>    </tr></table><table>    <tr>        <td align='left'width='650px'>            <b>Report #:</b>                 2014-11          </td>    </tr></table><table>    <tr>        <td align='left'width='650px'>            <b>Status:</b>          Open         </td>    </tr></table><table>    <tr>        <td align='left'width='650px'>            <b>Reported to SWO on:</b>         9/19/2014 &nbsp; 15:17 ET         </td>    </tr></table><table>    <tr>        <td align='left'width='650px'>            <b>Severity:</b>            Local Incident          </td>    </tr></table><table>    <tr>        <td align='left'width='650px'>            <b>Description:</b>             Facility County Test 8           </td>    </tr></table><table>    <tr>        <td align='left'width='650px'>            <b>This situation involves:</b>         Animal or Agricultural, Civil Event, Environmental Crime, Fire, Petroleum Spill, Population Protection Actions, Search & Rescue, Weather Advisories          </td>    </tr></table><table>    <tr>        <td align='left'width='650px'>            <b>Initial Report:</b>         <pre>This is the initial report. It's just one long line of text, used here to demonstrate how the HTML preserve tag affects the display of text. After the long line of text, we can also demonstrate how white space is preserved. However, not all browsers email clients render preserved text the same way.
+
+                    We
+					     can
+						      use
+							       spaces
+								        to
+										     put
+											      text
+												       out
+													        here.
+
+Or
+	we
+		can
+			use
+				tabs
+					to
+						accomplish
+							the
+								same
+									type
+										of
+											thing.
+												Eventually
+													though,
+														something's
+															gotta
+																give.
+																	See
+																		what
+																			I
+																				mean?     </pre>        </td>    </tr></table><table>    <tr>        <td align='left'width='650px'>            <b>Injuries:</b>            Unknown        </td>    </tr></table><table>    <tr>        <td align='left'width='650px'>            <b>Fatalities</b> (Unconfirmed by State Medical Examiner):            Unknown        </td>    </tr></table><table>    <tr>        <td align='left'width='650px'>            <b>Environmental impact:</b>            Unknown        </td>    </tr></table><table><table>    <tr>        <td align='left'width='650px'>            <b>Incident Occurred:</b>            9/19/2014 &nbsp; 15:17 ET         </td>    </tr></table><table>    <tr>        <td align='left'width='650px'>            <b>Most Recent Update Date/Time:</b>        07/30/2015-17:07 ET         </td>    </tr></table><table>    <tr>        <td align='left'width='650px'>            <b>Most Recent Update:</b>        This is another update. It's just one long line of text, used here to demonstrate how not using the HTML preserve tag affects the display of text. After the long line of text, we can also demonstrate how white space is not preserved. However, not all browsers email clients render preserved text the same way.
+
+                    We
+					     can
+						      use
+							       spaces
+								        to
+										     put
+											      text
+												       out
+													        here.
+
+Or
+	we
+		can
+			use
+				tabs
+					to
+						accomplish
+							the
+								same
+									type
+										of
+											thing.
+											             </td>    </tr></table><table>    <tr>        <td align='left'width='650px'>                    <b>Affected Counties:</b>                          Charlotte, Putnam             </td>    </tr></table><table>    <tr>        <td align='left'width='650px'>                <b>Facility Name or Description:</b>                         Charlotte County Fairgrounds             </td>    </tr></table><table>    <tr>        <td align='left'width='650px'>                <b>Incident Location:</b>                        <i>Address:</i> 2333 El Jobean Road <i>City:</i> Port Charlotte   <i>Zip:</i> 33948   <i>USNG:</i> 17RLK8265887052        </td>    </tr></table><table>    <tr>        <td align='left'width='650px'>            <b>Coordinates:</b>                     <i>Lat</i>: 27.000613, <i>Long</i>: -82.182649             </td>    </tr></table><table width='100%'cellspacing='0' border='0'>    <tr>        <td  width='650px' align='left' style='background-color:#d4d4d4; color:#000000;' >            <b>Contact Information</b>        </td>    </tr></table><table>    <tr>        <td align='left'width='650px'>            <b>Reporting Party:</b>                 Protected Information-Please Contact SWO          </td>    </tr></table><table>    <tr>        <td align='left'width='650px'>            <b>Responsible Party:</b>                 Protected Information-Please Contact SWO          </td>    </tr></table><table>    <tr>        <td align='left'width='650px'>            <b>On-Scene Contact:</b>                 Protected Information-Please Contact SWO          </td>    </tr></table><table width='100%'cellspacing='0' border='0'>    <tr>        <td  width='650px' align='left' style='background-color:#d4d4d4; color:#000000;' >            <b>Weather Advisories</b>        </td>    </tr></table><table>    <tr>        <td align='left'width='650px'>            <b>Sub-Type:</b>            Weather Warning          </td>    </tr></table><table>    <tr>        <td align='left'width='650px'>            <b>Situation:</b>            Past Report          </td>    </tr></table><table>    <tr>        <td align='left'width='650px'>            <b>Description:</b>            Weather Advisories          </td>    </tr></table><table>    <tr>        <td align='left'width='650px'>            <b>Date Issued:</b>            7/29/2015          </td>    </tr></table><table>    <tr>        <td align='left'width='650px'>            <b>Time Issued:</b>            19:27 &nbsp;ET         </td>    </tr></table><table>    <tr>        <td align='left'width='650px'>            <b>Effective on Date:</b>            7/29/2015          </td>    </tr></table><table>    <tr>        <td align='left'width='650px'>            <b>Effective on Time:</b>            1937 ET          </td>    </tr></table><table>    <tr>        <td align='left'width='650px'>            <b>Expires on Date:</b>            7/29/2015          </td>    </tr></table><table>    <tr>        <td align='left'width='650px'>            <b>Expires on Time:</b>            2015 ET          </td>    </tr></table><table>    <tr>        <td align='left'width='650px'>            <b>Issuing Office:</b>            Tallahassee Weather Forecast Office          </td>    </tr></table><table>    <tr>        <td align='left'width='650px'>            <b>Type of Advisory:</b>            Severe Thunderstorm Warning          </td>    </tr></table><table>    <tr>        <td align='left'width='650px'>            <b>Advisory Text:</b>            <pre>000
+WUUS52 KTAE 292327
+SVRTAE
+FLC039-GAC087-300015-
+/O.NEW.KTAE.SV.W.0380.150729T2327Z-150730T0015Z/
+
+BULLETIN - IMMEDIATE BROADCAST REQUESTED
+SEVERE THUNDERSTORM WARNING
+NATIONAL WEATHER SERVICE TALLAHASSEE FL
+727 PM EDT WED JUL 29 2015
+
+THE NATIONAL WEATHER SERVICE IN TALLAHASSEE HAS ISSUED A
+
+* SEVERE THUNDERSTORM WARNING FOR...
+  NORTHWESTERN GADSDEN COUNTY IN THE BIG BEND OF FLORIDA...
+  SOUTH CENTRAL DECATUR COUNTY IN SOUTHWESTERN GEORGIA...
+
+* UNTIL 815 PM EDT
+
+* AT 726 PM EDT...THE NATIONAL WEATHER SERVICE HAS DETECTED A SEVERE
+  THUNDERSTORM CAPABLE OF PRODUCING DAMAGING WINDS IN EXCESS OF 60
+  MPH. THIS STORM WAS LOCATED 9 MILES EAST OF CHATTAHOOCHEE...OR 12
+  MILES NORTHWEST OF QUINCY...AND MOVING SOUTH AT 15 MPH.
+
+* LOCATIONS IMPACTED INCLUDE...
+  QUINCY...GREENSBORO...GRETNA...ROSEDALE...MOUNT PLEASANT...
+  RECOVERY...HARDAWAY...DOUGLAS CITY...SYCAMORE AND FACEVILLE.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+MOVE IMMEDIATELY INSIDE A STRONG BUILDING AND AWAY FROM WINDOWS UNTIL
+THIS STORM PASSES.
+
+TORRENTIAL RAINFALL IS ALSO OCCURRING WITH THIS STORM...AND MAY LEAD
+TO FLASH FLOODING. DO NOT DRIVE YOUR VEHICLE THROUGH FLOODED
+ROADWAYS.
+
+&&
+
+LAT...LON 3080 8457 3054 8459 3057 8484 3082 8478
+TIME...MOT...LOC 2326Z 007DEG 13KT 3074 8469</pre>          </td>    </tr></table><table width='100%'cellspacing='0' border='0'>    <tr>        <td  width='650px' align='left' style='background-color:#d4d4d4; color:#000000;' >            <b>Population Protection Actions</b>        </td>    </tr></table><table width='100%'cellspacing='0' border='0'>    <tr>        <td  width='650px' align='left' style='background-color:#d4d4d4; color:#000000;' >            <b>Animal or Agricultural</b>        </td>    </tr></table><table width='100%'cellspacing='0' border='0'>    <tr>        <td  width='650px' align='left' style='background-color:#d4d4d4; color:#000000;' >            <b>Civil Event</b>        </td>    </tr></table><table>    <tr>        <td align='left'width='650px'>            <b>Sub-Type:</b>            Civil Rioting          </td>    </tr></table><table>    <tr>        <td align='left'width='650px'>            <b>Situation:</b>            Active          </td>    </tr></table><table>    <tr>        <td align='left'width='650px'>            <b>Description:</b>            x          </td>    </tr></table><table>    <tr>        <td align='left'width='650px'>            <b>Cause of Event:</b>            x          </td>    </tr></table><table>    <tr>        <td align='left'width='650px'>            <b>Number of people participating:</b>            x          </td>    </tr></table><table>    <tr>        <td align='left'width='650px'>            <b>Incident confined to one location:</b>            Unknown          </td>    </tr></table><table>    <tr>        <td align='left'width='650px'>            <b>Law enforcement agency coordinating response:</b>            x          </td>    </tr></table><table>    <tr>        <td align='left'width='650px'>            <b>Departments/Agencies  responding or on scene:</b>            x          </td>    </tr></table><table>    <tr>        <td align='left'width='650px'>            <b>Major roadways closed:</b>            Unknown          </td>    </tr></table><table width='100%'cellspacing='0' border='0'>    <tr>        <td  width='650px' align='left' style='background-color:#d4d4d4; color:#000000;' >            <b>Petroleum Spill</b>        </td>    </tr></table><table width='100%'cellspacing='0' border='0'>    <tr>        <td  width='650px' align='left' style='background-color:#d4d4d4; color:#000000;' >            <b>Environmental Crime</b>        </td>    </tr></table><table width='100%'cellspacing='0' border='0'>    <tr>        <td  width='650px' align='left' style='background-color:#d4d4d4; color:#000000;' >            <b>Fire</b>        </td>    </tr></table><table width='100%'cellspacing='0' border='0'>    <tr>        <td  width='650px' align='left' style='background-color:#d4d4d4; color:#000000;' >            <b>Search & Rescue</b>        </td>    </tr></table><table>    <tr>        <td align='left'width='650px'>            <b>Sub-Type:</b>            EPIRB          </td>    </tr></table><table>    <tr>        <td align='left'width='650px'>            <b>Situation:</b>            Active          </td>    </tr></table><table>    <tr>        <td align='left'width='650px'>            <b>Description:</b>            SAR Test1          </td>    </tr></table><table width='100%'cellspacing='0' border='0'>    <tr>        <td  width='650px' align='left' style='background-color:#d4d4d4; color:#000000;' >            <b>Animal or Agricultural</b>        </td>    </tr></table><table>    <tr>        <td align='left'width='650px'>            <b>Sub-Type:</b>            Crop Issue          </td>    </tr></table><table>    <tr>        <td align='left'width='650px'>            <b>Severity Level:</b>            Reported          </td>    </tr></table><table>    <tr>        <td align='left'width='650px'>            <b>Description:</b>            Test          </td>    </tr></table><table>    <tr>        <td align='left'width='650px'>            <b>Crop(s) affected:</b>            beans          </td>    </tr></table><table>    <tr>        <td align='left'width='650px'>            <b>Disease Type:</b>            bean rot          </td>    </tr></table><table>    <tr>        <td align='left'width='650px'>            <b>Number of acres affected:</b>            12          </td>    </tr></table><table width='650px' cellspacing='0' border='0'>    <tr>        <td width='650px' align='left' style='background-color:#d4d4d4; color:#000000;' >            <b>Notification 08/07/2015-10:12 / DEM-Porter</b>         </td>    </tr></table><table>    <tr>        <td align='left'width='650px'>           brandon.porter@em.myflorida.com; ryan.lock@em.myflorida.com          </td>    </tr></table><table width='650px' cellspacing='0' border='0'>    <tr>        <td width='650px' align='left' style='background-color:#d4d4d4; color:#000000;' >            <b>Notification 08/06/2015-11:25 / DEM-Porter</b>         </td>    </tr></table><table>    <tr>        <td align='left'width='650px'>           brandon.porter@em.myflorida.com          </td>    </tr></table><table width='650px' cellspacing='0' border='0'>    <tr>        <td width='650px' align='left' style='background-color:#d4d4d4; color:#000000;' >            <b>Notification 08/06/2015-09:26 / DEM-Porter</b>         </td>    </tr></table><table>    <tr>        <td align='left'width='650px'>           brandon.porter@em.myflorida.com          </td>    </tr></table><table width='650px' cellspacing='0' border='0'>    <tr>        <td width='650px' align='left' style='background-color:#d4d4d4; color:#000000;' >            <b>Notification 08/06/2015-09:16 / DEM-Porter</b>         </td>    </tr></table><table>    <tr>        <td align='left'width='650px'>           brandon.porter@em.myflorida.com          </td>    </tr></table><table width='650px' cellspacing='0' border='0'>    <tr>        <td width='650px' align='left' style='background-color:#d4d4d4; color:#000000;' >            <b>Notification 08/06/2015-09:15 / DEM-Porter</b>         </td>    </tr></table><table>    <tr>        <td align='left'width='650px'>           brandon.porter@em.myflorida.com          </td>    </tr></table><table width='650px' cellspacing='0' border='0'>    <tr>        <td width='650px' align='left' style='background-color:#d4d4d4; color:#000000;' >            <b>Notification 09/29/2014-13:39 / DEM-Porter</b>         </td>    </tr></table><table>    <tr>        <td align='left'width='650px'>           brandon.porter@em.myflorida.com          </td>    </tr></table><table>    <tr>        <td width='650px' align='left' style='background-color:#d4d4d4; color:#000000;' >            &nbsp;        </td>    </tr>    <tr>        <td width='650px' align='left'>            The State Watch Office values your feedback; please take a 1 minute <a href='https://www.surveymonkey.com/s/WRZW88G'>survey</a> about this notification.        </td>    </tr></table></body></html></div></body></html>

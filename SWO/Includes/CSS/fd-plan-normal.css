@@ -1,0 +1,261 @@
+BODY {
+	PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: ; LINE-HEIGHT: 1.166; PADDING-TOP: 0px; FONT-FAMILY: Arial,sans-serif
+}
+A {
+	COLOR: #006699; TEXT-DECORATION: bold
+}
+A:link {
+	FONT-WEIGHT: 500; COLOR: #000066; TEXT-DECORATION: bold
+}
+A:visited {
+	COLOR: #000066; TEXT-DECORATION: bold
+}
+A:hover {
+	COLOR: #fe0000; TEXT-DECORATION: bold
+}
+H1 {
+	PADDING-LEFT: 0px; FONT-SIZE: 120%; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #333333; PADDING-TOP: 0px; FONT-FAMILY: Verdana,Arial,sans-serif
+}
+H2 {
+	PADDING-LEFT: 0px; FONT-SIZE: 114%; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #006699; PADDING-TOP: 0px; FONT-FAMILY: Arial,sans-serif
+}
+H3 {
+	BACKGROUND-IMAGE: url(http://www.floridadisaster.org/images/BAR_H3_secondlevel.jpg); PADDING-LEFT: 2px; FONT-SIZE: 94%; PADDING-BOTTOM: 3px; MARGIN: 0px; COLOR: #000000; PADDING-TOP: 3px; BORDER-LEFT: #CCCCCC 1px solid; BORDER-Right: #CCCCCC 1px solid; BORDER-BOTTOM: #CCCCCC  1px solid; BORDER-TOP: #CCCCCC 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+	}
+H5 {
+	BACKGROUND-IMAGE: url(http://www.floridadisaster.org/images/BAR_HALERT_secondlevel.jpg); PADDING-LEFT: 2px; FONT-SIZE: 100%; PADDING-BOTTOM: 3px; MARGIN: 0px; COLOR: #FFFFFF; PADDING-TOP: 3px; BORDER-BOTTOM: #CCCCCC  1px solid; BORDER-TOP: #CCCCCC 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+H33{
+	BACKGROUND-IMAGE: url(http://www.floridadisaster.org/images/BAR_H3A.jpg); PADDING-LEFT: 0px; FONT-SIZE: 100%; PADDING-BOTTOM: 3px; MARGIN: 0px; COLOR: #000000; PADDING-TOP: 3px; BORDER-BOTTOM: #FF0000 1px dotted; BORDER-TOP: #FF0000  1px dotted; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+H4 {
+	PADDING-LEFT: 0px; FONT-WEIGHT: normal; FONT-SIZE: 100%; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #333333; PADDING-TOP: 0px; FONT-FAMILY: Arial,sans-serif
+}
+
+UL{
+	 list-style-image: url(http://www.floridadisaster.org/images/arrow_greybullet.gif)	
+	}
+
+ULPriority {
+	LIST-STYLE-IMAGE: url(http://www.floridadisaster.org/images/arrow_red.jpg)	
+}
+
+ULphone {
+	LIST-STYLE-IMAGE: url(http://www.floridadisaster.org/images/phone.jpg)	
+}
+
+UL UL {
+	LIST-STYLE-IMAGE: url(http://www.floridadisaster.org/images/arrow_red.jpg)	
+}
+UL UL UL {
+	LIST-STYLE-TYPE: none
+}
+LABEL {
+	FONT-WEIGHT: bold; FONT-SIZE: 100%; COLOR: #334d55; FONT-FAMILY: Arial,sans-serif
+}
+#masthead {
+	BORDER-TOP: #cccccc 0px dotted; PADDING-LEFT: 0px; BACKGROUND-IMAGE: none; PADDING-BOTTOM: 0px; WIDTH: 100%; PADDING-TOP: 2px; BORDER-BOTTOM: #cccccc 0px dotted; BACKGROUND-REPEAT: no-repeat
+}
+#navBar {
+	PADDING-LEFT: 0px; FLOAT: right; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: #e2e2e2 1px solid; WIDTH: 20%; PADDING-TOP: 0px; BORDER-BOTTOM: #cccccc 1px solid; BACKGROUND-COLOR: #FFFFFF
+}
+#headlines {
+	BORDER-RIGHT: #e2e2e2 1px solid; PADDING-RIGHT: 5px; FLOAT: left; WIDTH: 19%; PADDING-TOP: 0px; BORDER-BOTTOM: #cccccc 1px solid
+}
+#content {
+	FLOAT: left; WIDTH: 55%; PADDING-LEFT: 10px;
+}
+#siteName {
+	PADDING-LEFT: 10px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+#globalNav {
+	PADDING-LEFT: 10px; PADDING-BOTTOM: 5px; COLOR: #cccccc; PADDING-TOP: 0px; BORDER-BOTTOM: #ccc 0px dotted
+}
+#globalNav IMG {
+	DISPLAY: block
+}
+#globalNav A {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 0px; FONT-SIZE: 90%; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+#pageName {
+	PADDING-LEFT: 10px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+#breadCrumb {
+	PADDING-LEFT: 10px; FONT-SIZE: 80%; PADDING-BOTTOM: 0px; PADDING-TOP: 2px
+}
+.feature {
+	 PADDING-LEFT: 10px; FONT-SIZE: 80%; COLOR: #333333 ; PADDING-TOP: 5px; FONT-FAMILY: Verdana; TEXT-DECORATION: none
+	 
+	 }
+.featuretop {
+	 PADDING-LEFT: 10px; FONT-SIZE: 80%; COLOR: #666666 ; LINE-HEIGHT: 145%; PADDING-TOP: 5px; FONT-FAMILY: Verdana; TEXT-DECORATION: none; BACKGROUND-IMAGE: url(http://www.floridadisaster.org/images/featureshadow.jpg)
+}
+.feature IMG {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; PADDING-TOP: 10px
+}
+.story {
+	PADDING-LEFT: 10px; FONT-SIZE: 80%; COLOR: #000000; LINE-HEIGHT: 120%; PADDING-TOP: 10px; FONT-FAMILY: Verdana; TEXT-DECORATION: none
+}
+.story P {
+	PADDING-LEFT: 0px; PADDING-BOTTOM: 10px; PADDING-TOP: 0px
+}
+#siteInfo {
+	CLEAR: both; BORDER-RIGHT: #cccccc 0px dotted; PADDING-RIGHT: 0px; BORDER-TOP: #cccccc 0px dotted; PADDING-LEFT: 0px; FONT-SIZE: 75%; PADDING-BOTTOM: 0px; BORDER-LEFT: #cccccc 0px dotted; COLOR: #cccccc; PADDING-TOP: 0px; BORDER-BOTTOM: #cccccc 0px dotted; BACKGROUND-COLOR: #ffffff
+}
+#siteInfo IMG {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 10px; PADDING-BOTTOM: 4px; VERTICAL-ALIGN: middle; PADDING-TOP: 4px
+}
+#search {
+	PADDING-LEFT: 10px; FONT-SIZE: 70%; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; BORDER-BOTTOM: #cccccc 0px dotted
+}
+#search FORM {
+	PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+#search LABEL {
+	DISPLAY: block; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+#navBar UL A:link {
+	DISPLAY: block
+}
+#navBar UL A:visited {
+	DISPLAY: block 
+}
+#navBar UL {
+	PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+#navBar LI {
+	BORDER-BOTTOM: #ffffff 1px dotted
+}
+UNKNOWN {
+	
+}
+#sectionLinks {
+	PADDING-TOP: 0px; BORDER-BOTTOM: #cccccc 0px dotted
+}
+#sectionLinks A {
+	PADDING-RIGHT: 1px; DISPLAY: block; PADDING-LEFT: 10px; PADDING-BOTTOM: 0px; COLOR: #000066; PADDING-TOP: 0px; BORDER-BOTTOM: #cccccc 1px dotted
+}
+.top {
+	PADDING-RIGHT: 1px; DISPLAY: block; PADDING-LEFT: 10px; PADDING-BOTTOM: 0px; COLOR: #000066; PADDING-TOP: 0px; BORDER-BOTTOM: #cccccc 1px dotted
+}
+#toplinks A {
+	PADDING-RIGHT: 1px; DISPLAY: block; PADDING-LEFT: 10px; PADDING-BOTTOM: 0px; COLOR: #000066; PADDING-TOP: 0px; BORDER-BOTTOM: #cccccc 1px dotted
+}
+#sectionLinks A:hover {
+	BACKGROUND-COLOR: #fcca07
+	}
+#PressLinks A:hover {
+	BACKGROUND-IMAGE: url(http://www.floridadisaster.org/images/PDF_BG.jpg);
+}
+#sectionTopLinks A:hover {
+	BACKGROUND-COLOR: #fcca07
+
+	
+}
+.relatedLinks {
+	PADDING-LEFT: 10px; FONT-SIZE: 80%; PADDING-BOTTOM: 10px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.relatedLinks A:link {
+	DISPLAY: block
+}
+.relatedLinks A:visited {
+	DISPLAY: block
+}
+#advert {
+	PADDING-LEFT: 0px; PADDING-BOTTOM: 10px; PADDING-TOP: 30px
+}
+#advert IMG {
+	DISPLAY: block
+}
+#headlines {
+	PADDING-LEFT: 10px; FONT-SIZE: 80%; PADDING-BOTTOM: 20px; MARGIN: 0px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-COLOR: #ffffff;
+}
+#headlines P {
+	PADDING-LEFT: 0px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px
+}
+
+.userid {font-family: Verdana; font-size: 11pt;	font-weight : bold; padding-left : 20px; color: #434370; padding-bottom: 2px;}
+.newdate {font-family: Verdana; color: #000000;	font-size: 11px; font-weight : bold; margin-bottom : 5px; padding-right: 10px; color: #00000;}
+.moreops {font-family: Verdana; color: #000000;	font-size: 11px; font-weight : bold; margin-bottom : 15px; line-height: 14px; color: #00000;}
+.evtdate {font-family: Verdana; color: #000000;	font-size: 11px;	font-weight : bold; margin-bottom : 5px; padding-right: 10px; color: #00000;}
+.copyright {font-family: Verdana; color: #000000;	font-size: 8pt; margin-bottom : -12px;}
+.button {font-family: Verdana;  font-size: 11px; font-weight: bold; color: #FFFFFF; background-color: #343C6C }
+.button2 {font-family: Verdana;  font-size: 11px; font-weight: bold; color: #000000; background-color: #29CC35 }
+.fieldlabel {font-family: Verdana;  font-size: 11px; font-weight: bold; color: #434370;}
+.fieldlabel2 {font-family: Verdana;  font-size: 11px;}
+.fieldlabel2a {font-family: Verdana;  font-size: 11px; font-style: italic;}
+.fieldlabel3 {font-family: Verdana;  font-size: 12px; font-weight: bold;}
+.contactlabel {font-family: Verdana;  font-size: 15px; font-weight: bold;}
+.warnlabel {font-family: Verdana;  font-size: 11px; font-weight: bold; color: 434370;}
+.instruction {font-family: Verdana;  font-size: 12px;}
+.norecords{font-family: Verdana;  font-size: 11px; color: #999999; font-style: italic; font-weight: bold;}
+.sectionlabel {font-family: Verdana, sans-serif; font-size : 12pt; color: #434370; font-weight : bold; line-height : 90%; margin-bottom: 1.5px;margin-top: 3px; }
+.sectionlabel2 {font-family: Verdana, sans-serif; font-size : 11pt; color: #000000; font-weight : bold; margin-bottom: 3px;margin-top: 10px; }
+.sectionlabel3 {font-family: Verdana, sans-serif; font-size : 11pt; color: #ffffff; font-weight : bold; margin-bottom: 3px;margin-top: 10px; }
+.sectionhead {font-family: Verdana, sans-serif; font-size: 18px; color: #434370; font-weight : bold; margin-bottom: 1.5px;margin-top: 3px; }
+.sectionhead1 {font-family: Verdana, sans-serif; font-size: 16px; color: #434370; font-weight : bold; margin-bottom: 1.5px;margin-top: 3px; }
+.sectionhead2 {font-family: Verdana, sans-serif; font-size: 14px; color: #333333; font-style: italic; margin-bottom: 1px;margin-top: 3px; }
+.sectionhead3 {font-family: Verdana, sans-serif; font-size: 14px; color: #434370; font-weight : bold; margin-bottom: 1.5px;margin-top: 3px; }
+.searchlabel {font-family: Verdana, sans-serif; font-size: 12px; color: #ffffff; font-weight : bold; font-style: italic;}
+.srchlablsml {font-family: Verdana, sans-serif; font-size: 11px; color: #ffffff; font-weight : bold;}
+.srchlabltxtbox {font-family: Verdana, sans-serif; font-size: 11px; color: #000000;}
+.datainput {font-family: Verdana, sans-serif; font-size: 11px; color: #000000;}
+.srchresult {font-family: Verdana, sans-serif; font-size: 11px; color: #000000; margin-bottom: -13px; text-indent: 5px;}
+.srchresulthdr {font-family: Verdana, sans-serif; font-size: 10pt; color: #333333; font-weight: bold; font-style: italic;  margin-bottom: 8px;}
+.srchresult2 {font-family: Verdana, sans-serif; font-size: 10pt; color: #434370; font-weight: bold;	line-height: 90%; margin-bottom: 8px; margin-top: 15px;}
+.nomore {font-family: Verdana, sans-serif; font-size: 8pt; color: #cccccc; font-style: italic; font-weight: bold;}
+.srchmore {font-family: Verdana, sans-serif; font-size: 8pt; color: #434370; font-style: italic; font-weight: bold;}
+.fieldselect {font-family: Verdana, sans-serif; font-size: 11px; color: #000000; width: 200px;}
+.fieldselectbtn {font-family: Verdana, sans-serif; font-size: 11px; color: #000000; font-weight: bold; width: 110px;}
+.annextable {font-family: Verdana, sans-serif; font-size: 8pt; border-bottom: 1 solid #000000}
+.annextablehdr {font-family: Verdana, sans-serif; font-size: 11px; font-weight: bold; border-bottom: 4 solid #000000; border-top: 4 solid #000000}
+
+.footer { font-family: Verdana, sans-serif; 	font-size: 8pt;; color: #FFFFFF; }
+td.datahead1 {
+	border : 1px solid #0066cc ; 
+	background:#990000 ; 
+	color:#ffffff ; 
+	font-family: Arial, sans-serif; 
+	font-weight: bold;
+	}
+	
+td.datasubhead1 {
+	border : 1px solid #999999; 
+	background:#999999 ; 
+	color:#ffffff ; 
+	font-family: Arial, sans-serif; 
+	font-weight: bold;
+	}
+
+td {font-family: Verdana;  font-size: 11px;}
+TD.BBarLinks { FONT-FAMILY: Arial; COLOR: #FFFFFF; FONT-SIZE: 8pt; FONT-WEIGHT: bold}
+
+td.tbHeader  { color: #FFFFFF; background-color: #4F8EC6; font-weight: bold; font-size:12pt; font-family: Arial; }
+td.tbHeaderC  { color: #FFFFFF; background-color: #FFCC00; font-weight: bold; font-size:12pt; font-family: Arial; }
+td.tbHeaderB  { color: #FFFFFF; background-color: #333366; font-weight: bold; font-family: Arial; }
+td.tbTitle   { font-size: 8pt; color: #663300; font-weight: bold; background-color: #ffffff;}
+td.tbTitle2   { font-size: 8pt; color: #E0E0E0; font-weight: bold; background-color: #996633 }
+td.tbBody    { background-color: #FFFFFF; margin-bottom: 0% }
+td.righttbBody { background-color: #FFFFCC }
+
+td.tbETab     { color: #000000; font-size: 8pt; font-family: Verdana; font-weight: bold; background-color: #cccccc; }
+td.tbETab A, td.tbETab A:visited { color: #000000; text-decoration:none }
+td.tbETab A:hover, td.tbETab A:active { color: #FFFFFF; text-decoration:underline }
+td.tbETabSelected { font-size: 8pt; font-family: Verdana; font-weight: bold; color: #000000;  background-color: #ffffff; }
+TD.tbETabSelected A, TD.tbETabSelected A:hover, TD.tbETabSelected A:active { color: #000000; text-decoration:none }
+
+td.tbTab     { color: #FFFFFF; font-size: 8pt; font-family: Verdana; font-weight: bold; background-color: #cccccc; }
+td.tbTab A, td.tbTab A:visited { color: #000000; text-decoration:none }
+td.tbTab A:hover, td.tbTab A:active { color: #434370; text-decoration:underline; }
+td.tbTabSelected { font-size: 8pt; font-family: Verdana; font-weight: bold; color: #000000;  background-color: #ffffff; }
+TD.tbTabSelected A, TD.tbTabSelected A:hover, TD.tbTabSelected A:active { color: #000000; text-decoration:none }
+
+td.tbToolbar { font-family: Helvetica; font-weight: bold; font-size: 8pt }
+td.tbToolbar A, td.tbToolbar A:visited, td.tbToolbar A:active  {text-decoration: none; color:#000000; }
+td.tbToolbar A:hover {text-decoration: none; color:#808080}
+td.tbIndex I { font-size: 85%; }
+td.tbIndex A {color:#000000; text-decoration:none; font-size: 85%}
+td.tbIndex A:visited {color:#000000; text-decoration:none; font-size: 85%}
+td.tbIndex A:hover {color:#ff9900; text-decoration: underline}
+
+td.tbMenu {background-color: #e0e0e0; font-size: 8pt; font-weight: bold }

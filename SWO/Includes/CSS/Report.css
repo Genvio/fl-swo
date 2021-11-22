@@ -1,0 +1,491 @@
+﻿body, td {
+	margin:0px;
+	font-family: Verdana;
+	font-size:12pt;
+	color: #333333;
+}
+p 	{
+	margin:0px 0;
+}
+img{
+border: 0px;
+text-decoration: none;
+}
+fieldset {
+	padding:15px;
+}	
+legend {
+	color:#333333;
+	padding:10px 5px 10px 3px;
+	font-weight:bold;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+
+	Images
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.photo-border
+{
+	border: 1px solid #cecece;
+	padding: 2px;
+	background: #d9d9d9 url(images/bg-photo.png) top repeat-x;
+	margin-bottom: 5px;
+	display: block;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+
+	HEADINGS 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+h1 {
+	font-size:20px;
+	font-family:Verdana;
+	line-height:1.1em;
+	margin:5px 0;
+	font-weight:bold;
+	color:#00573c;
+}
+h1 {
+	margin-bottom:0;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+
+	Report Styles
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.reportheader
+{
+	font-family: Verdana,Arial;
+	font-size: 10pt;
+	color: black;
+	
+}
+.reportheader td
+{
+	
+}
+.reportinnertable
+{
+  border-collapse:collapse;
+  font-family: Verdana,Arial;
+  font-size: 10pt;
+  background-color:#ffffff;
+}
+.reportinnertable td
+{
+  border-right: 1px solid #ece9d8;
+  border-left: 1px solid #ece9d8;
+  border-bottom: 1px solid #ece9d8;
+  vertical-align:top;
+}
+.reportinnertabletotalrow
+{
+ background-color:#eeeeef;
+}
+.reportinnertableheader
+{
+	font-family: Verdana,Arial;
+	font-size: 10pt;
+	color: black;
+	font-weight: bold;
+	background-color: #d8e4f8;
+}
+TR.reportalternaterow
+{
+	background-color: #eeeeef;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+
+	LINKS
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+a:link {
+	color:#185584;
+	text-decoration: none;
+}
+
+a:visited {
+	color:#185584;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#185584;
+	text-decoration:underline;
+}
+
+a:active {
+	color:#185584;
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+
+	LISTS
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+ul {
+	margin:0;
+	padding:0;
+	}
+
+li {
+	list-style:none;
+	background:url(/images/bullet.png) no-repeat 0 ;
+	padding:.2em 0 .2em 1em;
+	margin-left:0.4em;
+	
+}
+
+ul.bullets li
+{
+	list-style-image: url(/images/bullet.gif);
+	margin-left: -20px;
+}
+ul.ErrorBullets li
+{
+	list-style-image: url(../images/icons/error_bullet.gif);
+	margin-left: 20px;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+
+	ASP Objects Textboxes, Drop downs, etc.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.button
+{
+	font-family: Verdana;
+	font-size: 8pt;
+}
+.buttonfixedsize
+{
+	font-family: Verdana;
+	font-size: 8pt;
+	width:175px;
+}
+
+.txtbox
+{
+	font-family: Verdana;
+	font-size: 8pt;
+}
+.label
+{
+	font-family: Verdana;
+    font-size: 12px;
+}
+
+.ddllist
+{
+	font-family: Verdana;
+	font-size: 8pt;
+}
+.ddllistfixedsize
+{
+	font-family: Verdana;
+	font-size: 8pt;
+	width:250px;
+}
+.txterr
+{
+	font-family: Verdana;
+	font-size: 8pt;
+	color: Red;
+	font-weight: bold;
+}
+.requiredfield
+{
+	color:#ff9933;
+	font-weight:bold;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+	
+	Rounded Corners
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.module {
+  padding: 0 0 0 0;
+  clear:left;
+}
+
+.module-header a:link {
+	color:#000000;
+	text-decoration:none;
+}
+
+.module-header a:visited {
+	color:#000000;
+	text-decoration:none;
+}
+
+.module-header a:hover {
+	text-decoration:underline;
+}
+
+.module-header a:active {
+	color:#000000;
+}
+	
+
+
+td.module-content-login {
+  border-right: 1px solid #000;
+  border-left: 1px solid #000;
+  border-bottom: 1px solid #000;
+   
+}
+td.module-content td {
+  padding:0px 0px 0px 0px;
+  font-size:11px;
+}
+
+td.module-content table
+{
+	border-left:solid 1px black; 
+	border-right:solid 1px black;
+	border-bottom:solid 1px black;
+	border-top:solid 1px black;
+}
+
+/* nested table style within the content */
+.module-content-innertable
+{
+  border-collapse:collapse;
+  
+}
+.module-content-innertable td
+{
+  border-right: 1px solid #ece9d8;
+  border-left: 1px solid #ece9d8;
+  border-bottom: 1px solid #ece9d8;
+  border-collapse:collapse;
+}
+.module-content-innertable-totalrow
+{
+ background-color:#eeeeef;
+}
+	
+
+/* end nested table style within the content */
+.module-header {
+  white-space: nowrap;
+  color: #000000;
+  font-family: Verdana;
+  font-size: 8pt;
+  background-image: url(../images/module-header-bkg.gif);
+  background-repeat: repeat;
+  font-weight: bold;
+  height: 22px;
+  line-height:22px;
+}
+.module-corner-left {
+  background-image: url(../images/module-corner-left.gif);
+  background-repeat:no-repeat;
+  width: 10px;
+  height: 22px;
+  float: left;
+}
+.module-corner-right {
+  background-image: url(../images/module-corner-right.gif);
+  background-repeat:no-repeat;
+  width: 10px;
+  height: 22px;
+  float: right;
+}	
+
+.module-header-innerheader {
+  white-space: nowrap;
+  color: #000000;
+  font-family: Verdana;
+  font-size: 8pt;
+  background-image: url(../images/module-header-bkg.gif);
+  background-repeat: repeat;
+  font-weight: bold;
+  height: 22px;
+  line-height:22px;
+  border-right: 1px solid #000000;
+  border-left: 1px solid #000000;
+  padding-left:10px;  
+}
+
+td.header {
+	color: #000;
+    padding:5px;
+    background-color:#00573c;
+    font-weight:bold;
+    font-family: Verdana;
+    color: #ffffff;
+	font-size: 8pt;
+  	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+}
+td.headerbottom {
+	color: #000;
+    padding:5px;
+    background-color:#00573c;
+    font-weight:bold;
+  	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+	border-bottom: 1px solid #000;
+}
+
+/*td subheader are used for the sub headers in Nested Tables */
+table.subheader {
+	font-family: Verdana;
+    font-size: 8pt;
+    color: #000;
+    text-align:left;
+    padding:5px;
+    background-color:#00573c;
+}
+
+/*td nav are used for the td headers */
+td.nav
+{
+	background-color: #ede4cd;
+	text-align:left;
+}
+
+.datagridheader, .datagridheader a, .datagridheader a:link, .datagridheader a:visited, 
+.datagridheader a:hover, .datagridheader a:active
+{
+	color:white;
+    font-weight:bold;
+	background-color:#00573c;
+	text-align:center;
+	 
+}
+.datagridalt
+{
+	background-color: #f7f7f7;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+
+	Footer-Sub
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+#footer-sub {
+	margin-top:1em;
+	margin-left:auto;
+	margin-right:auto;
+	width:740px;
+	text-align:center;
+	padding:.1em 0 2em 0;
+	position:relative;
+	font-size:1.5em;
+	color:#999999;
+	}
+
+#footer-sub ul {
+	margin:0;
+	padding:0;
+	}
+	
+#footer-sub li {
+	display:inline;
+	list-style:none;
+	padding:0 1em 0 0;
+	background:none;
+	}
+
+#footer-sub a:link,
+#footer-sub a:visited {
+	text-decoration:underline;
+	color:#999999;
+}
+
+#footer-sub a:hover {
+	color:#666666;
+	text-decoration:none;
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	Columns
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.ContainerRow div
+{
+	float:left;
+	width:200px;
+}
+
+.ContainerRow
+{
+	width:100%;
+}
+
+
+/*
+	class for the AJAX loading div
+*/
+.ajaxdivupdate
+{
+	z-index:2; 
+	position:absolute; 
+	left:50%; 
+	top: 40%; 
+	background-color:#ffffff; 
+	padding:6px 6px 6px 6px; 
+	border:solid 1px #000000;	
+}
+
+
+#Nav ul
+{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	list-style-image: none;
+	font-weight: normal;
+}
+#Nav li
+{
+	display: inline;
+	border-right: solid 1px #818181;
+}
+#Nav ul li a
+{
+	text-decoration: none;
+	padding: 0px 10px 0px 0px;
+	color: #185584;
+}
+#Nav ul li a:hover
+{
+	color: #185584;
+	text-decoration: underline;
+}
+
+/*
+	Errors and Success panel styles
+*/
+#ValidationErrors
+{
+	background-color: #FFE5F9;
+	padding: 10px;
+	border: solid 1px #FFB3EC;
+	width: 705px;
+}
+
+#SucessPanel
+{
+	background-color: #E5FFEB;
+	padding: 10px;
+	border: solid 1px #A8FFBD;
+	width: 705px;
+}
+
+
+.lbxFixedSize
+{
+	font-family: Verdana;
+	font-size: 8pt;
+	width:250px;
+}
